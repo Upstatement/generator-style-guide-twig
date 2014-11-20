@@ -1,7 +1,7 @@
 {
   "name": "generator-style-guide-twig",
   "version": "0.0.0",
-  "description": "Yeoman generator",
+  "description": "Quickly scaffold the Upstatement Style Guide Template for WordPress projects using Twig/Timber",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "upstatement/generator-style-guide-twig",
