@@ -1,0 +1,19 @@
+// =============================================
+
+//  Style Guide Overrides
+
+// =============================================
+
+// Bring in all Compass Helpers
+@import "components/style-guide-imports.scss";
+
+.h1, .h2, .h3, .h4, .h5,
+.txt-sm, .txt, .txt-lg {
+	margin-bottom: 20px;
+}
+
+.btn-large,
+.btn-medium,
+.btn-small {
+	margin-right: 30px;
+}
