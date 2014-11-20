@@ -23,11 +23,11 @@ Follow the prompts and you'll have a shiny new Style Guide sitting in your proje
 ### Render the Style Guide in WordPress
 The WordPress database needs to know these pages exist in order to render them, so you need to go the WP Admin > Pages and add new pages. They should be named Style Guide and Style Guide Source. It’s important that their permalinks exactly match the name of the files between the `page-` prefix and `.twig` suffix. Here’s what it should look like …
 
-	_Style Guide_
-	![Style Guide](http://i.imgur.com/1gHvvfS.jpg)
+_Style Guide_
+![Style Guide](http://i.imgur.com/1gHvvfS.jpg)
 
-	_Style Guide Source_
-	![Style Guide Source](http://i.imgur.com/XM2tVRY.jpg)
+_Style Guide Source_
+![Style Guide Source](http://i.imgur.com/XM2tVRY.jpg)
 
 ### Run Compass
 Navigate to the newly created `style-guide` directory in your theme and run `compass watch`
