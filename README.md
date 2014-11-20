@@ -20,7 +20,7 @@ yo style-guide-twig
 ```
 Follow the prompts and you'll have a shiny new Style Guide sitting in your project, ready to customize! 
 
-### Render the Style Guide in WordPress
+#### Render the Style Guide in WordPress
 The WordPress database needs to know these pages exist in order to render them, so you need to go the WP Admin > Pages and add new pages. They should be named Style Guide and Style Guide Source. It’s important that their permalinks exactly match the name of the files between the `page-` prefix and `.twig` suffix. Here’s what it should look like …
 
 _Style Guide_
@@ -29,7 +29,7 @@ _Style Guide_
 _Style Guide Source_
 ![Style Guide Source](http://i.imgur.com/XM2tVRY.jpg)
 
-### Run Compass
+#### Run Compass
 Navigate to the newly created `style-guide` directory in your theme and run `compass watch`
 
 That’s it! You’re all set up! For more about what you can do with the Style Guide, visit the main repo for the  [Upstatement Style Guide Template](https://github.com/Upstatement/style-guide-twig).
