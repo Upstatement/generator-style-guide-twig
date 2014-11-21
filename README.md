@@ -1,24 +1,19 @@
-Yeoman Generator: Upstatement Style Guide
+Yeoman: Upstatement Style Guide
 ==========================
 
 [Yeoman Generator](http://yeoman.io) to quickly scaffold the [Upstatement Style Guide Template](https://github.com/Upstatement/style-guide-twig) for Twig/Timber
 
-### What Is This?
-A style guide starter theme that helps display typography, objects, and other design patterns. It’s templated using Twig & Timber for easy inclusion in our WordPress projects. 
+## Setup
 
-The Style Guide is designed for easy use by our clients. It lets the designer **name components** and **write notes** about when to use them. It gives the client **code snips** that make it easy to copy, paste, and replicate our work.
+Go to the Terminal, we'll be doing everything from there. If you run into errors, it might be a permissions problem. To fix, try running the same command again and with `sudo` in front (i.e. - `sudo original command`). 
 
-Check out this [live example](http://harvardlawreview.org/style-guide/) of the Style Guide in action for [The Harvard Law Review](http://harvardlawreview.org/style-guide/). 
+#### Make sure dependencies are installed
+* Most Upstatement folks already have Node, NPM and Bower installed. If you don’t, skip to the dependencies section at the bottom and come back. 
 
-### How Does it Work?
-
-This package ships with some standard patterns (buttons, text styles, section headers, etc.) to help you get started. But nothing is set in stone. Delete anything you don’t want, replace anything the needs changing, and add custom components for your project. 
-
-## Getting Started
-Go to the Terminal, we'll be doing everything from there.
-
-#### Make sure [Yeoman](http://yeoman.io) is installed
-Run `yo -v`. If you don’t have it installed, run the following: `npm install -g yo`. You may have to `sudo npm install -g yo` depending on your setup.
+* Not everyone has Yeoman. To check if you do, run `yo -v`. If you need to install it, run the following: 
+```bash
+npm install -g yo
+```
 
 #### Import the Style Guide Generator:
 ```bash
@@ -141,5 +136,7 @@ Article Pullquote
 Sometimes when you add project HTML, you’ll want to customize certain design attributes for the Style Guide alone. Make any necessary overrides in `sass/style-guide-overrides.scss`
 
 ## Dependencies
-* **Node** - [Install Node](http://nodejs.org/)
-* **NPM** - [Install NPM](https://www.npmjs.org/package/npm-install)
+* **Node** - [Install](http://nodejs.org/)
+* **NPM** - [Install](https://www.npmjs.org/package/npm-install)
+* **Yeoman** - [Install](http://yeoman.io) 
+* **Bower** - [Install](http://bower.io/#install-bower)
