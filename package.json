@@ -1,6 +1,6 @@
 {
   "name": "generator-style-guide-twig",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Quickly scaffold the Upstatement Style Guide Template for WordPress projects using Twig/Timber",
   "license": "MIT",
   "main": "app/index.js",
