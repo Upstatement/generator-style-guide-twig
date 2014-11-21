@@ -3,6 +3,17 @@ Yeoman Generator: Upstatement Style Guide
 
 [Yeoman Generator](http://yeoman.io) to quickly scaffold the [Upstatement Style Guide Template](https://github.com/Upstatement/style-guide-twig) for Twig/Timber
 
+### What Is This?
+A style guide starter theme that helps display typography, objects, and other design patterns. It’s templated using Twig & Timber for easy inclusion in our WordPress projects. 
+
+The Style Guide is designed for easy use by our clients. It lets the designer **name components** and **write notes** about when to use them. It gives the client **code snips** that make it easy to copy, paste, and replicate our work.
+
+Check out this [live example](http://harvardlawreview.org/style-guide/) of the Style Guide in action for [The Harvard Law Review](http://harvardlawreview.org/style-guide/). 
+
+### How Does it Work?
+
+This package ships with some standard patterns (buttons, text styles, section headers, etc.) to help you get started. But nothing is set in stone. Delete anything you don’t want, replace anything the needs changing, and add custom components for your project. 
+
 ## Getting Started
 Go to the Terminal, we'll be doing everything from there.
 
