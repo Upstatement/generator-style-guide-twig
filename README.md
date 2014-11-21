@@ -18,7 +18,7 @@ This package ships with some standard patterns (buttons, text styles, section he
 Go to the Terminal, we'll be doing everything from there.
 
 #### Make sure [Yeoman](http://yeoman.io) is installed
-Run `yo -v`. If you don’t have it installed, run the following: `npm install -g yo`
+Run `yo -v`. If you don’t have it installed, run the following: `npm install -g yo`. You may have to `sudo npm install -g yo` depending on your setup.
 
 #### Import the Style Guide Generator:
 ```bash
