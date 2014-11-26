@@ -120,7 +120,8 @@ Article Pullquote
 #}
 {% embed style_mod
    with { title:'Article Pullquote',
-          class: 'no-dropcap’ } %}
+          class: 'no-dropcap' 
+} %}
 
   {% block markup %}
     <div class="article-txt">
