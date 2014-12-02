@@ -19,6 +19,6 @@
     "jquery": "~2.1.1",
     "google-code-prettify": "~1.0.3",
     "modernizr": "~2.8.3",
-    "Upbase": "git@github.com:Upstatement/upbase.git#~0.1.91"
+    "Upbase": "git@github.com:Upstatement/upbase.git"
   }
 }
